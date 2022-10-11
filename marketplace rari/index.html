@@ -1,0 +1,113 @@
+<!-- Marketplace responsive - Buscador de productos(3pt) - Modo noche dependiendo de la hora (2pt)
+Animaciones en js (2 pt) - Sistema de puntuación de productos (usuario elige) (2 pt) - 
+Sistema de recomendaciones (1pt)-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/script.js"></script>
+    <title> Marketplace </title >
+    
+</head>
+
+<body>
+    <div class="all">
+        <h1> Marketplace </h1>
+        <div class="page-nav">
+            <img src="img/logo.png" class="logo">
+            <button id="checkout" onclick="pay()" class="pagar"> Pagar </button>
+            <br><br><br><br>    
+        </div>
+
+        <div class="buscador">
+            <h2> Buscador</h2> <img src="img/buscador.png" class="lupa">
+            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Buscar un producto...">
+        </div>
+    </div>
+
+
+    <br><br><br>
+    <hr>
+
+    <div class="page-content">
+        <div class="cajadeproducto">
+            <h3>Television nueva sin uso (tiene algunos detalles)</h3>
+            <img src="img/tele.jpg">
+            <h4>$1500</h4>
+            <button class="boton" onclick="add('Television nueva sin uso (tiene algunos detalles)', 1500)">Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> Horno Avon casi nueva </h3>
+            <img src="img/horno.jpg">
+            <h4>$1</h4>
+            <button class="boton" onclick="add('Horno Avon casi nueva', 1)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> Celular ultima generación (no robado) </h3>
+            <img src="img/celu.jpg">
+            <h4>$120</h4>
+            <button class="boton" onclick="add('Celular ultima generación (no robado)', 120)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> Torta frita </h3>
+            <img src="img/tortafrita.jpg">
+            <h4>$30</h4>    
+            <button class="boton" onclick="add('Torta frita', 30)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> Remeras de mujer (preguntar al privado) </h3>
+            <img src="img/remera.jpeg">
+            <h4>Gratis</h4>
+            <button class="boton" onclick="add(' Remeras de mujer (preguntar al privado)', 0)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto">
+            <h3> Pantalones tácticos 💥💥💥💥💥 </h3>
+            <img src="img/pantalon4.jpg">
+            <h4>$10000</h4>
+            <button class="boton" onclick="add('Pantalones tácticos 💥💥💥💥💥', 10000)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto">
+            <h3> Libro del Dross - Cómo ser homofobico </h3>
+            <img src="img/libro.jpg">
+            <h4>$200</h4>
+            <button class="boton" onclick="add('Libro del Dross - Cómo ser homofobico', 200)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> Colchon sin uso, casi nuevo </h3>
+            <img src="img/colchon2.jpg">
+            <h4>$25000</h4>
+            <button class="boton" onclick="add(' Colchon sin uso, casi nuevo', 25000)" >Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto">
+            <h3> Merka (legal) Oscar's friends </h3>
+            <br>
+            <img src="img/merka.jpg">
+            <h4>$99000000000000000000000</h4>
+            <button class="boton" onclick="add('Merka (legal) Oscar`s friends', 99000000000000000000000)">Añadir al carrito</button>
+        </div>
+
+        <div class="cajadeproducto"> 
+            <h3> PROMOCIÓN DE SILLAS GAMERS 😎😎 Oscar's Corporation </h3>
+            <img src="img/gaymer.jpeg">
+            <h4>$50000</h4>
+            <button class="boton" onclick="add('PROMOCIÓN DE SILLAS GAMERS 😎😎 Oscar`s Corporation', 50000)">Añadir al carrito</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+body{
+  margin: 0px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.logo{
+  width: 5%;
+  height: 5%;
+  float:left;
+}
+
+.lupa{
+  width:2%;
+  height: 2%;
+  }
+
+.cajadeproducto img {
+  width: 300px;
+}
+.pagar{
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 0px 15px 0px;
+}
+
+.boton {
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: black;
+  border: 2px solid rgb(160, 61, 199);
+
+}
+
+.boton:hover {
+ background-color: rgb(6, 32, 32);
+ color:aliceblue;
+
+}
+/* Centrar productos / colores de la prueba */
+ .cajadeproducto{
+  max-width: 1200px;
+  height: 700px;
+  font-size: 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.cajadeproducto:nth-of-type(1){
+  background-color: chocolate;
+}
+.cajadeproducto:nth-of-type(2){
+  background-color: darkmagenta;
+}
+.cajadeproducto:nth-of-type(3){
+  background-color: forestgreen;
+}
+.cajadeproducto:nth-of-type(4){
+  background-color: goldenrod;
+}
+.cajadeproducto:nth-of-type(5){
+  background-color: hotpink;
+}
+.cajadeproducto:nth-of-type(6){
+  background-color: indigo;
+}
+.cajadeproducto:nth-of-type(7){
+  background-color: khaki;
+}
+.cajadeproducto:nth-of-type(8){
+  background-color: lightcoral;
+}
+.cajadeproducto:nth-of-type(9){
+  background-color: mediumpurple;
+}
+.cajadeproducto:nth-of-type(10){
+  background-color: navy;
+}
+
+ /*buscador */
+
+.iconodebuscador {
+  width: 2%;
+  height: 2%
+}
+#searchbar{
+  padding:1%;
+  border-radius: 10px;
+}
+
+/* Cuando se quiere buscar algo, la barra crece un */
+input[type=text]:focus {
+  width: 50%;
+}
